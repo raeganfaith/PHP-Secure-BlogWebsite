@@ -6,7 +6,7 @@
 | Company and Industry  | PawTalk Inc. - Education |
 | Solution Requirements | The web application must be developed using secure coding practices. |
 | Compliance Requirements | Create, read, update, and delete (CRUD) functionality must be implemented in the web application, and both the user and admin pages need to acknowledge policy and security. |
-| Quality of Service Requirements | Disable ETag |
+| Quality of Service Requirements | Availability: The service of the web application must only be accessible to Nationalian admin and users. <br> Reliability: The service of the web application must be responsive to mobile and desktop devices without errors. <br> Reliability: The service of the web application must be responsive to mobile and desktop devices without errors.|
 | Assets | Avoid Clickjacking Attack |
 | Team | Avoid Clickjacking Attack |
 | Security Objective | Avoid Clickjacking Attack |
