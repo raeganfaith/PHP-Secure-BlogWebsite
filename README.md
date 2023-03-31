@@ -8,7 +8,6 @@
 | Compliance Requirements | Create, read, update, and delete (CRUD) functionality must be implemented in the web application, and both the user and admin pages need to acknowledge policy and security. |
 | Quality of Service Requirements | Availability: The service of the web application must only be accessible to Nationalian admin and users. <br> <br> Reliability: The service of the web application must be responsive to mobile and desktop devices without errors. <br> <br> Reliability: The service of the web application must be responsive to mobile and desktop devices without errors.|
 | Assets | Files: HTML, CSS, and JavaScript <br> <br> Database: PHP <br> <br> Other assets: Images, logo, and contents |
-| Team | Raegan Faith F. Paguirigan <br> Niel Sergianne Mendoza <br> Gabrille David |
 | Security Objective | To develop a safe web application for users to post comments without being vulnerable to threats.  |
 
 # Secure Coding Practices
