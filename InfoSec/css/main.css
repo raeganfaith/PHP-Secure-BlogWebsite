@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --primary-color: #1c1d53;
+  --secondary-color: #bb812f;
+  --accent-color: #f3cc26;
+  --hover-color: #323582;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+main {
+  padding: 2% 8%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* To avoid whitespace when scrolled vertically in mobile. */
+.fixed-container{ 
+    top: 0;
+    bottom:0;
+    position:fixed;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    width: 100%;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.website-name {
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin: 0 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.nav-link {
+  padding: 10px 30px !important;
+  border-radius: 5px;
+}
+
+.nav-link.active {
+  color: var(--primary-color);
+  font-weight: bold;
+  background-color: var(--secondary-color);
+}
+
+nav .navbar-nav li a {
+  color: white;
+}
+
+nav .navbar-nav li a:hover {
+  color: var(--primary-color);
+  font-weight: bold;
+  background-color: var(--secondary-color);
+}
+
+.nav-logo {
+  height: 4rem;
+  margin: 0.5rem;
+}
+
+.navbar-toggler {
+  border: 1px solid white;
+}
+
+/* FOOTER */
+footer {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.footer-logo {
+  height: 8rem;
+}
+
+footer h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.quick-l {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.quick-l:hover {
+  color: var(--secondary-color);
+}
+
+.foot-extend {
+  background-color: var(--hover-color);
+}
+
+.privacy {
+  color: white;
+}
+
+.privacy:hover {
+  color: var(--secondary-color);
+}
+
+/* BUTTONS */
+#btn-primary {
+  background-color: var(--primary-color);
+  border: none;
+  padding: 10px;
+}
+
+#btn-primary:hover {
+  background-color: var(--hover-color);
+}
+
+/* ALERT MESSAGES */
+.alert_message {
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.alert_message.error {
+  background: var(--primary-color);
+}
+
+.alert_message.success {
+  background: var(--bs-success);
+}
+
+/* centers text of alert. eg. empty category-post page */
+/* ADDED AFTER TUTORIAL */
+.alert_message.lg {
+  text-align: center;
+
+}
+.alert_message {
+  text-align: center;
+}
+
