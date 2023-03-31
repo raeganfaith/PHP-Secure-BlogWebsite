@@ -35,9 +35,7 @@
 
 | Alert Name | Recommended Web Security Hardening Technique |
 | --- | --- |
-| Cross-Site Scripting | Disable Trace HTTP Request
-Enable/Disable Mod Security Modules
-X-XSS Protection |
+| Cross-Site Scripting | Disable Trace HTTP Request <br> Enable/Disable Mod Security <br> Modules X-XSS Protection |
 | Parameter Tampering | Show file differences that haven't been staged |
 | Server Leaks Information via “X-Powered by” HTTP Responsive Header Set | List all new or modified files |
 | Content Security Policy (CSP) Header Not Set | Show file differences that haven't been staged |
