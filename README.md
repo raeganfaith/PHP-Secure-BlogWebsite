@@ -36,7 +36,7 @@
 | Alert Name | Recommended Web Security Hardening Technique |
 | --- | --- |
 | Cross-Site Scripting | Disable Trace HTTP Request <br> Enable/Disable Mod Security <br> Modules X-XSS Protection |
-| Parameter Tampering | Show file differences that haven't been staged |
-| Server Leaks Information via “X-Powered by” HTTP Responsive Header Set | List all new or modified files |
-| Content Security Policy (CSP) Header Not Set | Show file differences that haven't been staged |
-| Missing Anti-clickjacking Header, X-Content-TypeOptions Header Missing | Show file differences that haven't been staged |
+| Parameter Tampering | Restrict IP Access |
+| Server Leaks Information via “X-Powered by” HTTP Responsive Header Set | Set Cookie with HttpOnly and Secure Flag |
+| Content Security Policy (CSP) Header Not Set | Disable ETag |
+| Missing Anti-clickjacking Header, X-Content-TypeOptions Header Missing | Avoid Clickjacking Attack |
