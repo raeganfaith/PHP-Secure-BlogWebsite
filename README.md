@@ -1,3 +1,16 @@
+# Threat Modeling
+## Identifying Security Objective
+
+| Business Case  | Description |
+| --- | --- |
+| Company and Industry  | PawTalk Inc. - Education |
+| Solution Requirements | The web application must be developed using secure coding practices. |
+| Compliance Requirements | Create, read, update, and delete (CRUD) functionality must be implemented in the web application, and both the user and admin pages need to acknowledge policy and security. |
+| Quality of Service Requirements | Disable ETag |
+| Assets | Avoid Clickjacking Attack |
+| Team | Avoid Clickjacking Attack |
+| Security Objective | Avoid Clickjacking Attack |
+
 # Secure Coding Practices
 
 ## Input Validation, Authentication and Password Management
