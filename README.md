@@ -1,7 +1,6 @@
 # Secure Coding Practices
 
 ## Input Validation, Authentication and Password Management
-### Secure Coding Practices Implementation
 
 ☑️ Require password combination (Sign Up) <br>
 ☑️ Require email validation (Sign Up) <br>
@@ -16,8 +15,7 @@
 ☑️ Username and email validation (Sign In) <br>
 
 
-## Input Validation, Authentication and Password Management
-### Secure Coding Practices Implementation
+## Session Management and Access Control
 
 ☑️ Require password combination (Sign Up) <br>
 ☑️ Require email validation (Sign Up) <br>
