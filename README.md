@@ -10,6 +10,8 @@
 | Assets | Files: HTML, CSS, and JavaScript <br> <br> Database: PHP <br> <br> Other assets: Images, logo, and contents |
 | Security Objective | To develop a safe web application for users to post comments without being vulnerable to threats.  |
 
+---
+
 # Secure Coding Practices
 
 ## Input Validation, Authentication and Password Management
@@ -26,7 +28,6 @@
 ☑️ Password authentication (Sign In) <br>
 ☑️ Username and email validation (Sign In) <br>
 
-
 ## Session Management and Access Control
 
 ☑️ Admin and User Session <br>
@@ -41,6 +42,8 @@
 ☑️ Sign-Up forms data error handling <br>
 ☑️ Login and access attempts  <br>
 ☑️ Login error handling <br>
+
+---
 
 # Server Hardening Technique
 ## System Vulnerability Checklist
