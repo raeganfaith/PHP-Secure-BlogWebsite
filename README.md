@@ -31,10 +31,10 @@
 ## Session Management and Access Control
 
 ☑️ Admin and User Session <br>
-☑️ Users can post content during their session. <br>
-☑️ Reflection of current user in the session. <br>
+☑️ Users can post content during their session <br>
+☑️ Reflection of current user in the session <br>
 ☑️ Admin and User Access <br>
-☑️ Only logged in users are eligible to post content. <br>
+☑️ Only logged in users are eligible to post content <br>
 
 ## Data Protection, Error Handling, and Logging Overview Snippet
 
