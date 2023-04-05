@@ -13,7 +13,6 @@
 ---
 
 # Secure Coding Practices
-
 ## Input Validation, Authentication and Password Management
 
 ☑️ Require password combination (Sign Up) <br>
