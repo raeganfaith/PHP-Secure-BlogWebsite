@@ -1,8 +1,17 @@
 <div align="center">
-  <h1>🔒THREAT MODELING</h1>
+  <h1>🔒SECURE WEB PROGRAMMING</h1>
 </div>
 
-## Identifying Security Objective
+<div align="center">
+
+[![Threat Modelling](https://img.shields.io/badge/Threat%20Modelling-blue?style=for-the-badge)](#threat)
+[![Secure Coding Practices](https://img.shields.io/badge/Secure%20Coding%20Practices-green?style=for-the-badge)](#secure)
+[![Server Hardening Techniqu](https://img.shields.io/badge/Server%20Hardening%20Techniqu-pink?style=for-the-badge)](#server)
+
+</div>
+
+## Threat Modelling <a name="threat"></a>
+### Identifying Security Objective <a name="indentify"></a>
 
 | Business Case  | Description |
 | --- | --- |
@@ -13,8 +22,8 @@
 | Assets | Files: HTML, CSS, and JavaScript <br> <br> Database: PHP <br> <br> Other assets: Images, logo, and contents |
 | Security Objective | To develop a safe web application for users to post comments without being vulnerable to threats.  |
 
-# Secure Coding Practices
-## Input Validation, Authentication and Password Management
+## Secure Coding Practices <a name="secure"></a>
+### Input Validation, Authentication and Password Management
 
 ☑️ Require password combination (Sign Up) <br>
 ☑️ Require email validation (Sign Up) <br>
@@ -28,7 +37,7 @@
 ☑️ Password authentication (Sign In) <br>
 ☑️ Username and email validation (Sign In) <br>
 
-## Session Management and Access Control
+### Session Management and Access Control
 
 ☑️ Admin and User Session <br>
 ☑️ Users can post content during their session <br>
@@ -36,15 +45,15 @@
 ☑️ Admin and User Access <br>
 ☑️ Only logged in users are eligible to post content <br>
 
-## Data Protection, Error Handling, and Logging Overview Snippet
+### Data Protection, Error Handling, and Logging Overview Snippet
 
 ☑️ Hashed user and admin password in the database <br>
 ☑️ Sign-Up forms data error handling <br>
 ☑️ Login and access attempts  <br>
 ☑️ Login error handling <br>
 
-# Server Hardening Technique
-## System Vulnerability Checklist
+## Server Hardening Technique <a name="server"></a>
+### System Vulnerability Checklist
 
 | Alert Name | Recommended Web Security Hardening Technique |
 | --- | --- |
