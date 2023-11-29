@@ -1,4 +1,7 @@
-# Threat Modeling
+<div align="center">
+  <h1>🔒THREAT MODELING</h1>
+</div>
+
 ## Identifying Security Objective
 
 | Business Case  | Description |
@@ -9,8 +12,6 @@
 | Quality of Service Requirements | Availability: The service of the web application must only be accessible to Nationalian admin and users. <br> <br> Reliability: The service of the web application must be responsive to mobile and desktop devices without errors. <br> <br> Reliability: The service of the web application must be responsive to mobile and desktop devices without errors.|
 | Assets | Files: HTML, CSS, and JavaScript <br> <br> Database: PHP <br> <br> Other assets: Images, logo, and contents |
 | Security Objective | To develop a safe web application for users to post comments without being vulnerable to threats.  |
-
----
 
 # Secure Coding Practices
 ## Input Validation, Authentication and Password Management
@@ -41,8 +42,6 @@
 ☑️ Sign-Up forms data error handling <br>
 ☑️ Login and access attempts  <br>
 ☑️ Login error handling <br>
-
----
 
 # Server Hardening Technique
 ## System Vulnerability Checklist
