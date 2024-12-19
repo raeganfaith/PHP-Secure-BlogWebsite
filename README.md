@@ -6,7 +6,7 @@
 
 [![Threat Modelling](https://img.shields.io/badge/Threat%20Modelling-blue?style=for-the-badge)](#threat)
 [![Secure Coding Practices](https://img.shields.io/badge/Secure%20Coding%20Practices-green?style=for-the-badge)](#secure)
-[![Server Hardening Technique](https://img.shields.io/badge/Server%20Hardening%20Techniqu-pink?style=for-the-badge)](#server)
+[![Server Hardening Technique](https://img.shields.io/badge/Server%20Hardening%20Technique-pink?style=for-the-badge)](#server)
 
 </div>
 
